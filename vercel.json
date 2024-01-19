@@ -2,7 +2,8 @@
     "builds": [
       {
         "src": "locallibrary/wsgi.py",
-        "use": "@vercel/python"
+        "use": "@vercel/python",
+        "config": { "runtime": "python3.10.2" }
       },
       {
         "src": "migrate_modelDB.sh",
