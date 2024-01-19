@@ -1,4 +1,4 @@
-# build_files.sh
+
 echo "Instalando requerimientos..."
 pip install -r requirements.txt
 
