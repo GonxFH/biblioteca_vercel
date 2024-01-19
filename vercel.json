@@ -7,6 +7,9 @@
       {
         "src": "migrate_modelDB.sh",
         "use": "@vercel/static-build"
+        "config": {
+          "distDir": "staticfiles_build"
+        }
       }
     ],
     "routes": [
