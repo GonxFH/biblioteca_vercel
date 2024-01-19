@@ -3,6 +3,10 @@
       {
         "src": "locallibrary/wsgi.py",
         "use": "@vercel/python"
+      },
+      {
+        "src": "migrate_modelBD.sh",
+        "use": "@vercel/static-build"
       }
     ],
     "routes": [
