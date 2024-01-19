@@ -5,7 +5,7 @@
         "use": "@vercel/python"
       },
       {
-        "src": "migrate_modelBD.sh",
+        "src": "migrate_modelDB.sh",
         "use": "@vercel/static-build"
       }
     ],
